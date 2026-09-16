@@ -1,0 +1,143 @@
+==================================================
+DISK USAGE REPORT - r440-node2
+Generated On: Wed Sep 16 05:25:46 PM IST 2026
+==================================================
+
+1. FILESYSTEM USAGE
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs            13G  139M   13G   2% /run
+/dev/sdf3       439G  311G  106G  75% /
+tmpfs            63G     0   63G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs            63G     0   63G   0% /run/qemu
+/dev/sdb1       487M  6.1M  480M   2% /boot/efi
+/dev/sdd1       1.5T  1.1T  280G  80% /mnt/dataD
+/dev/sdc1       2.2T  1.2T  907G  57% /mnt/dataC
+tmpfs            13G   84K   13G   1% /run/user/1000
+tmpfs            13G   84K   13G   1% /run/user/0
+
+2. USER LEVEL USAGE (/home)
+70G	/home/narasimha
+32G	/home/nsvishnu
+29G	/home/mahendra
+24G	/home/sumon
+23G	/home/msantosh
+9.0G	/home/testuser
+8.6G	/home/chethan
+4.1G	/home/jenkins
+3.2G	/home/likhith
+1.8G	/home/amit
+340M	/home/himesh
+50M	/home/mayank
+32M	/home/vboxuser
+32M	/home/spike_test.tgz
+18M	/home/testus
+36K	/home/vikas
+16K	/home/pratyush
+16K	/home/amritha
+0	/home/testusr
+
+3. /var/log USAGE
+182M	/var/log/boot.log.1
+11M	/var/log/syslog
+3.7M	/var/log/syslog.1
+2.7M	/var/log/auth.log.2.gz
+2.0M	/var/log/auth.log
+712K	/var/log/auth.log.1
+480K	/var/log/kern.log.2.gz
+228K	/var/log/wtmp.1
+120K	/var/log/dpkg.log.1
+96K	/var/log/apt
+32K	/var/log/cups
+24K	/var/log/btmp.1
+16K	/var/log/libvirt
+16K	/var/log/lastlog
+16K	/var/log/alternatives.log.1
+12K	/var/log/mail.log.1
+4.0K	/var/log/wtmp
+4.0K	/var/log/unattended-upgrades
+4.0K	/var/log/private
+4.0K	/var/log/kern.log.1
+4.0K	/var/log/kern.log
+4.0K	/var/log/btmp
+0	/var/log/mail.log
+0	/var/log/dpkg.log
+0	/var/log/boot.log
+0	/var/log/apport.log
+0	/var/log/alternatives.log
+
+4. DOCKER DIRECTORY USAGE
+260K	/var/lib/docker
+
+5. DOCKER SYSTEM DF
+
+6. LEVEL-2 DIRECTORIES > 1GB
+ 1180.10 GB /mnt/dataC
+ 1088.05 GB /mnt/dataD
+   69.45 GB /home/narasimha
+   31.05 GB /home/nsvishnu
+   28.82 GB /home/mahendra
+   23.85 GB /home/sumon
+   22.46 GB /home/msantosh
+   14.16 GB /root/toolchains
+    9.79 GB /root/pk
+    9.04 GB /usr/lib
+    8.99 GB /home/testuser
+    8.52 GB /home/chethan
+    6.08 GB /usr/local
+    5.58 GB /root/Spike
+    5.08 GB /root/sipanda-gcc
+    4.96 GB /root/iso_images
+    4.03 GB /home/jenkins
+    3.94 GB /opt/riscv64_240321
+    3.72 GB /opt/riscv64_240809_wglibc
+    3.72 GB /opt/riscv64_240808
+    3.72 GB /opt/riscv64_240731
+    3.50 GB /opt/gm_riscv64_250222
+    3.11 GB /opt/nvidia
+    3.11 GB /home/likhith
+    3.08 GB /opt/riscv64_240416B
+    2.49 GB /opt/riscv64_240416A
+    2.48 GB /root/.gradle
+    2.46 GB /opt/riscv64_built
+    2.16 GB /opt/riscv64_20250218
+    2.04 GB /usr/src
+    1.76 GB /home/amit
+    1.65 GB /usr/share
+    1.47 GB /root/drop_v1
+    1.41 GB /opt/intel
+    1.31 GB /usr/bin
+
+7. TOP LEVEL DIRECTORY USAGE
+2.3T	/mnt
+203G	/home
+49G	/root
+36G	/opt
+21G	/usr
+2.1G	/swapfile
+912M	/var
+313M	/boot
+139M	/run
+19M	/etc
+920K	/tmp
+136K	/snap
+16K	/lost+found
+12K	/_20241126_144334.log
+8.0K	/srv
+8.0K	/media
+8.0K	/_20241210_125958.log
+8.0K	/_20241210_124144.log
+8.0K	/_20241126_142857.log
+4.0K	/Module.symvers
+4.0K	/expnfs
+4.0K	/cdrom
+0	/sys
+0	/sbin
+0	/proc
+0	/libx32
+0	/lib64
+0	/lib32
+0	/lib
+0	/dev
+0	/bin
+0	/_20241029_090924.log
